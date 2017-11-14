@@ -1,0 +1,23 @@
+{
+  "name": "merl-app",
+  "version": "0.1.0",
+  "private": true,
+  "main": "webpack.config.js",
+  "dependencies": {
+    "path": "^0.12.7",
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0",
+    "react-scripts": "1.0.17",
+    "webpack": "^3.8.1"
+  },
+  "scripts": {
+    "start": "PORT=3006 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1"
+  }
+}
